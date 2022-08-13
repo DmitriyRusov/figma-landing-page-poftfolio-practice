@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+    width: 1445px;
+    margin: auto;
+}
+
+.menu {
+    width: 944px;
+    margin: 34px auto 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-bk {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    font-weight: bold;
+}
+
+.menu-gr {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: bold;
+}
+.hr-header {
+    width: 941px;
+    height: 0px;
+    border: 1px solid #828282;
+}
+
+.main-cestion {
+    width: 944px;
+    margin: 40px auto 104px;
+}
+
+.main-about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    align-items: center;
+}
+
+.Denis-Novik {
+    font-family: 'Gilroy-Bold';
+    font-size: 48px;
+    line-height: 59px;
+    color: #070707;
+}
+
+.ux-designer {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    }
+
+.translate {
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+}
+
+.aboutme {
+    /* height: 506px; */
+    width: 944px;
+    margin: auto;
+    background-color: #F6F6F6;
+    padding-top: 121px;
+    padding-bottom: 104px;
+}
+
+.aboutme-h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.aboutme-text {
+    width: 486px;
+    margin: 18px auto 10px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.adobe-apps {
+    height: 90px;
+    width: 90px;
+    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
