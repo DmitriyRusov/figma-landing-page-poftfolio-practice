@@ -23,14 +23,16 @@ html {
   }
 
 body {
-    font-family: 'Gilroy-Bold', sans-serif;
-    font-family: 'Gilroy-Heavy', sans-serif;
-    font-family: 'Gilroy-Light', sans-serif;
-    font-family: 'Gilroy-Medium', sans-serif;
-    font-family: 'Gilroy-Regular', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     width: 1445px;
     margin: auto;
 }
+
+/* font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif; */
 
 footer {
     height: 622px;
@@ -44,7 +46,7 @@ footer {
 }
 
 .menu-bk {
-    font-family: 'Gilroy-Bold';
+    font-weight: 700;
     font-size: 18px;
     line-height: 22px;
     color: #070707;
@@ -53,7 +55,7 @@ footer {
 }
 
 .menu-gr {
-    font-family: 'Gilroy-Bold';
+    font-weight: 700;
     font-size: 18px;
     line-height: 22px;
     color: #828282;
@@ -91,21 +93,21 @@ footer {
 }
 
 .Denis-Novik {
-    font-family: 'Gilroy-Bold';
+    font-weight: 700;
     font-size: 48px;
     line-height: 59px;
     color: #070707;
 }
 
 .ux-designer {
-    font-family: 'Gilroy-Medium';
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     color: #070707;
     }
 
 .translate {
-    font-family: 'Gilroy-Bold';
+    font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     color: #828282;
@@ -126,7 +128,7 @@ footer {
 }
 
 .aboutme-h2 {
-    font-family: 'Gilroy-Bold';
+    font-weight: 700;
     font-size: 34px;
     line-height: 42px;
     text-align: center;
@@ -137,7 +139,7 @@ footer {
 .aboutme-text {
     width: 486px;
     margin: 18px auto 84px;
-    font-family: 'Gilroy-Medium';
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
@@ -188,7 +190,7 @@ footer {
     }
 
 .programms-description {
-    font-family: 'Gilroy-Bold';
+    font-weight: 700;
     color: #828282;
     font-size: 14px;
     line-height: 17px;
@@ -208,7 +210,7 @@ footer {
     }
 
 .ahref {
-    font-family: 'Gilroy-Medium';
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
@@ -225,7 +227,7 @@ footer {
 }
 
 .contacts-h2 {
-    font-family: 'Gilroy-Bold';
+    font-weight: 700;
     font-size: 34px;
     line-height: 42px;
     
@@ -234,7 +236,7 @@ footer {
 }
 
 .contacts-text {
-    font-family: 'Gilroy-Medium';
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     
@@ -242,7 +244,7 @@ footer {
 }
 
 .contacts-like {
-    font-family: 'Gilroy-Medium';
+    font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     
@@ -255,7 +257,7 @@ footer {
     height: 42px;
     background-color: #070707;
     border: none;
-    font-family: 'Gilroy-Bold';
+    font-weight: 700;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
