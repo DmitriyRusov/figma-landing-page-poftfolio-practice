@@ -32,6 +32,10 @@ body {
     margin: auto;
 }
 
+footer {
+    height: 622px;
+}
+
 .menu {
     width: 944px;
     margin: 34px auto 32px;
@@ -45,6 +49,7 @@ body {
     line-height: 22px;
     color: #070707;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .menu-gr {
@@ -53,7 +58,20 @@ body {
     line-height: 22px;
     color: #828282;
     font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
 }
+
+.menu-gr:hover {
+    color: #070707;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
 .hr-header {
     width: 941px;
     height: 0px;
@@ -92,13 +110,17 @@ body {
     line-height: 20px;
     color: #828282;
     transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.translate:hover {
+    color: #070707;
 }
 
 .aboutme {
     /* height: 506px; */
     width: 944px;
     margin: auto;
-    background-color: #F6F6F6;
     padding-top: 121px;
     padding-bottom: 104px;
 }
@@ -109,11 +131,12 @@ body {
     line-height: 42px;
     text-align: center;
     color: #070707;
+    margin-bottom: 69px;
 }
 
 .aboutme-text {
     width: 486px;
-    margin: 18px auto 10px;
+    margin: 18px auto 84px;
     font-family: 'Gilroy-Medium';
     font-size: 18px;
     line-height: 22px;
@@ -124,5 +147,123 @@ body {
 .adobe-apps {
     height: 90px;
     width: 90px;
+ 
+}
+
+.about-programms {
+    display: flex;
+    justify-content: space-around;
+}
+
+.backgroundcolor-ps {
     background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+
+.backgroundcolor-ai {
+    background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+}
+
+.backgroundcolor-ae {
+    background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+}
+
+.backgroundcolor-figma {
+    width: 90px;
+    height: 90px;
+}
+
+.programms {
+    width: 1445px;
+    height: 610px;
+    padding: 91px 200px 110px;
+}
+
+.about-background {
+    width: 100%;
+    background-color: #F6F6F6;
+}
+
+.programms-wrapper {
+    text-align: center;
+    }
+
+.programms-description {
+    font-family: 'Gilroy-Bold';
+    color: #828282;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 24px 40px;
+}
+
+.portfolio {
+    padding-top: 113px;
+    padding-bottom: 45px;
+    padding-left: 255px;
+    padding-right: 255px;
+}
+
+.img-portfolio {
+    display: flex;
+    flex-direction: column;
+    }
+
+.ahref {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    margin: 44px auto 90px;
+}
+
+.contacts {
+    width: 345px;
+    height: 355px;
+    margin: 114px auto 123px;
+    text-align: center;
+}
+
+.contacts-h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    
+    color: #070707;
+    margin-bottom: 40px;
+}
+
+.contacts-text {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #070707;
+}
+
+.contacts-like {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #828282;
+    margin-top: 45px;
+}
+
+.button {
+    width: 180px;
+    height: 42px;
+    background-color: #070707;
+    border: none;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    margin: 29px auto 91px;
+}
+
+.button:hover {
+    background-color: #828282;
 }

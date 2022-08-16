@@ -14,15 +14,28 @@
         <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    <header     class="menu">
+   <!-- <header     class="menu">
         <p class="menu-bk">Home</p>
         <p class="menu-gr">About me</p>
         <p class="menu-gr">Skills</p>
         <p class="menu-gr">Portfolio</p>
         <p class="menu-gr">Contacts</p>
     </header>
+-->
+    <header>
+        <nav>
+            <ul class="menu">
+              <li><a class="menu-bk" href="#1">Home</a></li>
+              <li><a class="menu-gr" href="#2">About me</a></li>
+              <li><a class="menu-gr" href="#3">Skills</a></li>
+              <li><a class="menu-gr" href="#4">Portfolio</a></li>
+              <li><a class="menu-gr" href="#5">Contacts</a></li>
+            </ul>
+          </nav>
+    </header>
+
     <hr class="hr-header">
-    <main>
+    <main id="1">
         <div class="main-cestion">
             <div class="main-about">
                 <h1 class="Denis-Novik">Denis<br>Novik</h1>
@@ -33,41 +46,100 @@
                 src="img/img1-1.png"
                 alt="Denis Novik">
         </div>
-        
+
+    <div id="2" class="about-background">
         <div class="aboutme">
             <h2 class="aboutme-h2">About me</h2>
             <p class="aboutme-text">Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.</p>
             <p class="aboutme-text">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
             <p class="aboutme-text">Ready to implement excellent projects with wonderful people.</p>
         </div>
+    </div>
 
-        <div>
-            <h2 class="aboutme-h2">Skills</h2>
-            <p class="aboutme-text">I work in such programs as</p>
-            <div>
-                <div>
-                    <img class="adobe-apps" src="img/icons/ps-1.png">
-                    <p>Photoshop</p>
+    <div id="3" class="programms">
+        <h2 class="aboutme-h2">Skills</h2>
+        <p class="aboutme-text">I work in such programs as</p>
+        
+            <div class="about-programms">
+                <div class="programms-wrapper">
+                    <img class="backgroundcolor-ps" src="img/icons/ps-1.png">
+                    <p class="programms-description">Photoshop</p>                    
                     <Div>
                         <img src="img/icons/star-bk-1.png">
                         <img src="img/icons/star-bk-1.png">
                         <img src="img/icons/star-bk-1.png">
                         <img src="img/icons/star-bk-1.png">
                         <img src="img/icons/star-gr-1.png">  
+                    </div>
                 </div>
-                <div>
-                    <img class="adobe-apps" src="img/icons/ae-1.png">
-                    <p>Adobe Illustrator</p>
+                <div class="programms-wrapper">
+                    <img class="backgroundcolor-ai" src="img/icons/ai-1.png">
+                    <p class="programms-description">Adobe Illustrator</p>
                     <Div>
                         <img src="img/icons/star-bk-1.png">
                         <img src="img/icons/star-bk-1.png">
                         <img src="img/icons/star-bk-1.png">
                         <img src="img/icons/star-gr-1.png">
                         <img src="img/icons/star-gr-1.png">  
+                    </div>
                 </div>
-            </div>
+                <div class="programms-wrapper">
+                    <img class="backgroundcolor-ae" src="img/icons/ae-1.png">
+                    <p class="programms-description">Adobe After Effects</p>
+                    <Div>
+                        <img src="img/icons/star-bk-1.png">
+                        <img src="img/icons/star-bk-1.png">
+                        <img src="img/icons/star-bk-1.png">
+                        <img src="img/icons/star-bk-1.png">
+                        <img src="img/icons/star-gr-1.png">  
+                    </div>
+                </div>
+                <div class="programms-wrapper">
+                    <img class="backgroundcolor-figma" src="img/figma-logo/fill1-1.png">
+                    <p class="programms-description">Figma</p>
+                    <Div>
+                        <img src="img/icons/star-bk-1.png">
+                        <img src="img/icons/star-bk-1.png">
+                        <img src="img/icons/star-bk-1.png">
+                        <img src="img/icons/star-bk-1.png">
+                        <img src="img/icons/star-bk-1.png">  
+                    </div>
+                </div>
+        </div>                       
+    </div>
+    
+    <div id="4" class="about-background portfolio">
+        <h2 class="aboutme-h2">Portfolio</h2>
+        
+        <div class="img-portfolio">
+            <img src="img/layout1-1.png">
+            <a class="ahref" href="/">Online fashion store - Homepage</a>
         </div>
+        <div class="img-portfolio">
+            <img src="img/layout2-1.png">
+            <a class="ahref" href="/">Reebok Store - Concept</a>
+        </div>
+        <div class="img-portfolio">
+            <img src="img/layout3-1.png">
+            <a class="ahref" href="/">Braun Landing Page - Concept</a>
+        </div>
+    </div>
     </main>
-   
+
+    <footer>
+        <div id="5" class="contacts">
+            <h2 class="contacts-h2">Contacts</h2>
+            <p class="contacts-text">Want to know more or just chat? <br> are welcome!</p>
+            <button class="button">Send message</button>
+            <div class="about-programms">
+                <img src="img/figma-logo/fill1-1.png">
+                <img src="img/figma-logo/fill21-1.png">
+                <img src="img/figma-logo/fill3-1.png">
+                <img src="img/figma-logo/fill4-1.png">
+            </div>
+            <p class="contacts-like">Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>
+        </div>
+    </footer>
+
 </body>
 </html>
